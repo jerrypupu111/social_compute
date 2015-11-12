@@ -1,0 +1,35 @@
+{
+  "name": "stream-sale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "text.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "consolidate": "^0.13.1",
+    "fs": "^0.0.2",
+    "ejs": "^2.3.4",
+    "http": "^0.0.0",
+    "querystring": "^0.2.0",
+    "mustache": "^2.2.0",
+    "socket.io": "^1.3.7",
+    "url": "^0.11.0",
+    "request": "^2.65.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jerrypupu111/social_compute.git"
+  },
+  "keywords": [
+    "stream"
+  ],
+  "author": "jerrch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerrypupu111/social_compute/issues"
+  },
+  "homepage": "https://github.com/jerrypupu111/social_compute#readme"
+}
