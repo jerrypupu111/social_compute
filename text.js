@@ -9,9 +9,10 @@ var express = require('express'),
 	server = require('http').createServer(app),
 	io = require('socket.io').listen(server);
 request = require('request');
+
+app.set('port', (process.env.PORT || 5000));
 var engines = require('consolidate');
 
-server.listen(5000);
 app.set('views', __dirname + 'views');
 app.engine('html', engines.mustache);
 app.set('view engine', 'html');
