@@ -10,7 +10,7 @@ var express = require('express'),
 	io = require('socket.io').listen(server);
 request = require('request');
 
-app.set('port', (process.env.PORT || 5000));
+server.listen(process.env.PORT || 3000);
 var engines = require('consolidate');
 
 app.set('views', __dirname + 'views');
